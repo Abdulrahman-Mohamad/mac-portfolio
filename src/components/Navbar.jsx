@@ -9,16 +9,16 @@ export default function Navbar() {
                 <p className="font-bold">AbdelRahman Portfolio</p>
 
                 <ul>
-                    {navLinks.map(({ id, name }) => <>
+                    {navLinks.map(({ id, name }, i) => (
                         <li key={id}>
                             <p>{name}</p>
                         </li>
-                    </>)}
+                    ))}
                 </ul>
             </div>
             <div>
                 <ul>
-                    {navIcons.map(({ id, img }) => <>
+                    {navIcons.map(({ id, img }) => (
                         <li key={id}>
                             <img
                                 src={img}
@@ -26,7 +26,7 @@ export default function Navbar() {
                                 className="icon-hover"
                             />
                         </li>
-                    </>)}
+                    ))}
                 </ul>
                 <time>{dayjs().format("ddd MMM D h:mm A")}</time>
             </div>
