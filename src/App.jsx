@@ -1,6 +1,11 @@
 import Dock from "#components/Dock";
 import Navbar from "#components/Navbar";
 import Welcome from "#components/Welcome";
+import Terminal from "#windows/Terminal";
+import gsap from "gsap";
+import { Draggable } from "gsap/Draggable";
+
+gsap.registerPlugin(Draggable);
 
 export default function App() {
     return <>
@@ -8,6 +13,8 @@ export default function App() {
             <Navbar />
             <Welcome />
             <Dock />
+
+            <Terminal />
         </main>
     </>
 }
