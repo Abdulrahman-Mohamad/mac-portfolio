@@ -1,4 +1,5 @@
 import { dockApps } from "#constants"
+import useWindowStore from "#store/window"
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import { useRef } from "react"
@@ -6,6 +7,7 @@ import { Tooltip } from "react-tooltip"
 
 
 export default function Dock() {
+    const { openWindow, closeWindow, windows } = useWindowStore();
     const dockRef = useRef(null)
 
     useGSAP(() => {
@@ -33,7 +35,7 @@ export default function Dock() {
             });
         };
 
-        const handelMouseMove = (e) => {
+        const handleMouseMove = (e) => {
             const { left } = dock.getBoundingClientRect();
             animateIcons(e.clientX - left);
         }
@@ -49,18 +51,27 @@ export default function Dock() {
             });
         }
 
-        dock.addEventListener("mousemove", handelMouseMove);
+        dock.addEventListener("mousemove", handleMouseMove);
         dock.addEventListener("mouseleave", resetIcons);
 
         return () => {
-            dock.removeEventListener("mousemove", handelMouseMove);
+            dock.removeEventListener("mousemove", handleMouseMove);
             dock.removeEventListener("mouseleave", resetIcons);
         }
 
     }, [])
 
     const toggleApp = (app) => {
-        // TODO Impelemnt Open Window Logic
+        if (!app.canOpen) return;
+
+        const appWindow = windows[app.id];
+
+        if (appWindow && appWindow.isOpen) {
+            closeWindow(app.id);
+        } else {
+            openWindow(app.id);
+        }
+
     }
 
     return (
@@ -69,7 +80,7 @@ export default function Dock() {
                 {dockApps.map(({ id, name, icon, canOpen }) => (
                     <div key={id} className="relative flex justify-center">
                         <button
-                            type="butto"
+                            type="button"
                             className="dock-icon"
                             aria-label={name}
                             data-tooltip-id="dock-tooltip"

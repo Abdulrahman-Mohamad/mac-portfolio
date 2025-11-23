@@ -15,7 +15,7 @@ const renderText = (text, className, baseWeight = 400) => {
             className={className}
             style={{ fontVariationSettings: `'wght' ${baseWeight}` }}
         >
-            {char === "" ? '\u00A0' : char}
+            {char === " " ? '\u00A0' : char}
         </span>
     ))
 }
@@ -51,11 +51,16 @@ const setupTextHover = (container, type) => {
 
 
     container.addEventListener("mousemove", handleMouseMove);
-    container.addEventListener("mousemove", handleMouseLeave);
+    container.addEventListener("mouseleave", handleMouseLeave);
 
     return () => {
-        container.removeEventListener("mousemove", handleMouseMove);
-        container.removeEventListener("mousemove", handleMouseLeave);
+
+
+        container.removeEventListener("mousemove", handleMouseMove)
+        container.removeEventListener("mouseleave", handleMouseLeave);
+
+
+
     }
 }
 

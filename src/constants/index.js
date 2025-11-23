@@ -269,7 +269,7 @@ const WORK_LOCATION = {
                     icon: "/images/plain.png",
                     kind: "file",
                     fileType: "fig",
-                    href: "https://google.com",
+                    href: "https://abdelrahman-profile.netlify.app/",
                     position: "top-60 right-20",
                 },
             ],
