@@ -4,8 +4,8 @@ import { useRef } from "react";
 
 
 const FONT_WEIGHTS = {
-    subtitle: { min: 100, max: 700, default: 100 },
-    title: { min: 400, max: 1200, default: 400 }
+    subtitle: { min: 100, max: 400, default: 100 },
+    title: { min: 400, max: 900, default: 400 }
 }
 
 const renderText = (text, className, baseWeight = 400) => {
