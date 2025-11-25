@@ -4,9 +4,9 @@ import WindowWrapper from "#hoc/WindowWrapper";
 import { Download } from "lucide-react";
 import { Document, Page, pdfjs } from 'react-pdf';
 
+// important for react-pdf to display the cv
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import 'react-pdf/dist/Page/TextLayer.css';
-
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
 
