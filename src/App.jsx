@@ -9,6 +9,8 @@ import Text from "#windows/Text";
 import gsap from "gsap";
 import { Draggable } from "gsap/Draggable";
 import ImageWindow from "#windows/ImageWindow";
+import Contact from "#windows/Contact";
+import Home from "#components/Home";
 
 gsap.registerPlugin(Draggable);
 
@@ -25,6 +27,8 @@ export default function App() {
             <Finder />
             <Text />
             <ImageWindow />
+            <Contact />
+            <Home />
         </main>
     </>
 }
