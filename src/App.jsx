@@ -4,6 +4,7 @@ import Welcome from "#components/Welcome";
 import Safari from "#windows/Safari";
 import Resume from "#windows/Resume";
 import Terminal from "#windows/Terminal";
+import Finder from "#windows/Finder";
 import gsap from "gsap";
 import { Draggable } from "gsap/Draggable";
 
@@ -19,6 +20,7 @@ export default function App() {
             <Terminal />
             <Safari />
             <Resume />
+            <Finder />
         </main>
     </>
 }

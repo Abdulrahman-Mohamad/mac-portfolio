@@ -4,8 +4,8 @@ import { useRef } from "react";
 
 
 const FONT_WEIGHTS = {
-    subtitle: { min: 100, max: 400, default: 100 },
-    title: { min: 400, max: 700, default: 400 }
+    subtitle: { min: 200, max: 600, default: 200 },
+    title: { min: 400, max: 900, default: 400 }
 }
 
 const renderText = (text, className, baseWeight = 400) => {
@@ -84,7 +84,7 @@ export default function Welcome() {
             <p ref={subtitleRef}>
                 {renderText(
                     "Hey, I'm AbdelRahman! Welcome to my",
-                    "text-3xl font-georama text-nowrap",
+                    "text-3xl font-georama text-nowrap font-[200]",
                     100,
                 )}
             </p>
