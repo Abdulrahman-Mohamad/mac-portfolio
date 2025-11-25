@@ -11,6 +11,7 @@ import { Draggable } from "gsap/Draggable";
 import ImageWindow from "#windows/ImageWindow";
 import Contact from "#windows/Contact";
 import Home from "#components/Home";
+import Photos from "#windows/Photos";
 
 gsap.registerPlugin(Draggable);
 
@@ -29,6 +30,7 @@ export default function App() {
             <ImageWindow />
             <Contact />
             <Home />
+            <Photos />
         </main>
     </>
 }
