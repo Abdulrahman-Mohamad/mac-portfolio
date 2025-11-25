@@ -19,7 +19,7 @@ export default function App() {
 
             <Terminal />
             <Safari />
-            <Resume />
+            {/* <Resume /> */}
             <Finder />
         </main>
     </>
