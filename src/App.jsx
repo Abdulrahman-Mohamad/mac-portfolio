@@ -5,8 +5,10 @@ import Safari from "#windows/Safari";
 import Resume from "#windows/Resume";
 import Terminal from "#windows/Terminal";
 import Finder from "#windows/Finder";
+import Text from "#windows/Text";
 import gsap from "gsap";
 import { Draggable } from "gsap/Draggable";
+import ImageWindow from "#windows/ImageWindow";
 
 gsap.registerPlugin(Draggable);
 
@@ -21,6 +23,8 @@ export default function App() {
             <Safari />
             {/* <Resume /> */}
             <Finder />
+            <Text />
+            <ImageWindow />
         </main>
     </>
 }
