@@ -1,29 +1,34 @@
+import { useMemo } from 'react';
 import WindowControls from "#components/WindowControls";
 import WindowWrapper from "#hoc/WindowWrapper";
 import { Download } from "lucide-react";
-import { Document, Page, pdfjs } from "react-pdf";
+import { Document, Page, pdfjs } from 'react-pdf';
 
-// استدعاء ملفات الـ CSS الخاصة بالـ react-pdf
-import "react-pdf/dist/Page/AnnotationLayer.css";
-import "react-pdf/dist/Page/TextLayer.css";
+import 'react-pdf/dist/Page/AnnotationLayer.css';
+import 'react-pdf/dist/Page/TextLayer.css';
 
-// تحديد الـ worker من public مباشرة
-pdfjs.GlobalWorkerOptions.workerSrc = "/node_modules/pdfjs-dist/build/pdf.worker.min.mjs";
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+    'pdfjs-dist/build/pdf.worker.min.mjs',
+    import.meta.url,
+).toString();
 
 const Resume = () => {
+    const fileUrl = useMemo(() => "/files/cv.pdf", []);
     return (
         <>
             <div id="window-header">
                 <WindowControls target="resume" />
                 <h2>Resume.pdf</h2>
-                <a href="/files/cv.pdf" download title="Download resume">
+                <a href={fileUrl} download title="Download resume">
                     <Download className="icon cursor-pointer" />
                 </a>
             </div>
-
-            {/* استخدم URL مباشر للملف بدل استيراد ES module */}
-            <Document file="/files/cv.pdf">
-                <Page pageNumber={1} renderTextLayer renderAnnotationLayer />
+            <Document file={fileUrl}>
+                <Page
+                    pageNumber={1}
+                    renderTextLayer={false}
+                    renderAnnotationLayer={false}
+                />
             </Document>
         </>
     );
