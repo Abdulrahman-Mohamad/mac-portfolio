@@ -192,19 +192,23 @@ const gallery = [
     },
     {
         id: 2,
-        img: "/images/gal3.jpg",
+        img: "/images/gal1.jpg",
     },
     {
         id: 3,
-        img: "/images/gal4.jpg",
-    },
-    {
-        id: 4,
         img: "/images/gal2.jpg",
     },
     {
+        id: 4,
+        img: "/images/gal3.jpg",
+    },
+    {
         id: 5,
-        img: "/images/gal1.jpg",
+        img: "/images/gal4.jpg",
+    },
+    {
+        id: 6,
+        img: "/images/gal5.jpg",
     },
 ];
 
