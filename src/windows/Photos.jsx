@@ -14,8 +14,8 @@ const Photos = () => {
                 <Search className="icon" />
             </div>
         </div>
-        <div className="flex w-full">
-            <div className="sidebar">
+        <div className="flex w-full max-h-[90vh] overflow-auto">
+            <div className="sidebar">   
                 <h2>Photos</h2>
                 <ul>
                     {photosLinks.map(({ id, icon, title }) => (
@@ -27,7 +27,7 @@ const Photos = () => {
                 </ul>
             </div>
             <div className="gallery">
-                <ul>
+                <ul className="flex items-center flex-wrap ">
                     {gallery.map(({ id, img }) => (
                         <li
                             key={id}
@@ -41,8 +41,9 @@ const Photos = () => {
                                     imageUrl: img,
                                 })
                             }
+                            className="w-40 h-60 overflow-hidden cursor-pointer flex-center"
                         >
-                            <img src={img} alt={`Gallery image ${id}`} />
+                            <img src={img} alt={`Gallery image ${id}`} className="w-full h-full object-cover object-top" />
                         </li>
                     ))}
                 </ul>
