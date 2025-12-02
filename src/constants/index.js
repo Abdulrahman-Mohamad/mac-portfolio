@@ -110,7 +110,7 @@ const techStack = [
     },
     {
         category: "Styling",
-        items: ["Tailwind CSS", "Sass", "CSS"],
+        items: ["Tailwind CSS", "Bootstrap", "Sass", "CSS"],
     },
     {
         category: "Backend",
@@ -132,28 +132,28 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://github.com/Abdulrahman-Mohamad",
     },
     {
         id: 2,
-        text: "Platform",
-        icon: "/icons/atom.svg",
+        text: "WhatsApp",
+        icon: "/icons/whatsapp.svg",
         bg: "#4bcb63",
-        link: "https://jsmastery.com/",
+        link: "https://wa.me/201013977924",
     },
     {
         id: 3,
         text: "Twitter/X",
         icon: "/icons/twitter.svg",
         bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
+        link: "https://x.com/AbdulRahma97784",
     },
     {
         id: 4,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://www.linkedin.com/in/abdulrahman-mohamad-0578bb192/",
     },
 ];
 
