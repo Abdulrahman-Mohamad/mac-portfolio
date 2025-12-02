@@ -21,7 +21,7 @@ const Resume = () => {
                     <Download className="icon cursor-pointer" />
                 </a>
             </div>
-            <Document file={fileUrl}>
+            <Document file={fileUrl} className="max-h-[calc(100vh-100px)] overflow-auto">
                 <Page
                     pageNumber={1}
                     renderTextLayer={false}
