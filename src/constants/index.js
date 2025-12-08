@@ -542,6 +542,15 @@ const TRASH_LOCATION = {
             href: "https://slide-animation-gules.vercel.app/",
             position: "top-40 left-80",
         },
+        {
+            id: 9,
+            name: "Slider 3D.com",
+            icon: "/images/safari.png",
+            kind: "file",
+            fileType: "url",
+            href: "https://slider-3d-gamma.vercel.app/",
+            position: "top-40 left-80",
+        },
     ],
 };
 
