@@ -515,6 +515,15 @@ const TRASH_LOCATION = {
             href: "https://hong-kong-rosy.vercel.app/",
             position: "top-40 left-80",
         },
+        {
+            id: 6,
+            name: "INK Animation.com",
+            icon: "/images/safari.png",
+            kind: "file",
+            fileType: "url",
+            href: "https://ink-animation.vercel.app/",
+            position: "top-40 left-80",
+        },
     ],
 };
 
