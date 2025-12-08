@@ -551,6 +551,15 @@ const TRASH_LOCATION = {
             href: "https://slider-3d-gamma.vercel.app/",
             position: "top-40 left-80",
         },
+        {
+            id: 10,
+            name: "Three.js Scroll.com",
+            icon: "/images/safari.png",
+            kind: "file",
+            fileType: "url",
+            href: "https://3js-animation-zeta.vercel.app/",
+            position: "top-40 left-80",
+        },
     ],
 };
 
