@@ -436,6 +436,15 @@ const TRASH_LOCATION = {
             href: "https://nimble-sable-72e976.netlify.app/",
             position: "top-40 left-80",
         },
+        {
+            id: 3,
+            name: "Auto Slider.com",
+            icon: "/images/safari.png",
+            kind: "file",
+            fileType: "url",
+            href: "https://genuine-gaufre-c85428.netlify.app/",
+            position: "top-40 left-80",
+        },
     ],
 };
 
