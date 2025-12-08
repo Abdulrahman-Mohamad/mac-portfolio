@@ -533,6 +533,15 @@ const TRASH_LOCATION = {
             href: "https://scroll-animation-navy.vercel.app/",
             position: "top-40 left-80",
         },
+        {
+            id: 8,
+            name: "Slide Animation.com",
+            icon: "/images/safari.png",
+            kind: "file",
+            fileType: "url",
+            href: "https://slide-animation-gules.vercel.app/",
+            position: "top-40 left-80",
+        },
     ],
 };
 
