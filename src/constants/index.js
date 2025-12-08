@@ -524,6 +524,15 @@ const TRASH_LOCATION = {
             href: "https://ink-animation.vercel.app/",
             position: "top-40 left-80",
         },
+        {
+            id: 7,
+            name: "Scroll Animation.com",
+            icon: "/images/safari.png",
+            kind: "file",
+            fileType: "url",
+            href: "https://scroll-animation-navy.vercel.app/",
+            position: "top-40 left-80",
+        },
     ],
 };
 
