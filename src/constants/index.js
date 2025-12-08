@@ -235,11 +235,63 @@ const WORK_LOCATION = {
         // ▶ Project 1 (AI Resume Analyzer)
         {
             id: 5,
+            name: "3D Portfolio",
+            icon: "/images/folder.png",
+            kind: "folder",
+            position: "top-52 right-80",
+            windowPosition: "top-[4vh] left-16",
+            children: [
+                {
+                    id: 1,
+                    name: "AI Resume Analyzer Project.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-5 right-10",
+                    description: [
+                        "Developed using React 19 and Vite, ensuring a high-performance, modern single-page application experience with smooth client-side routing via React Router v7.",
+                        "It features immersive 3D elements and animations powered by Three.js (@react-three/fiber, @react-three/drei) and GSAP, creating a dynamic and memorable user interface.",
+                        "The design is fully responsive and styled with Tailwind CSS v4, incorporating custom animations and a polished aesthetic that adapts seamlessly to all device sizes.",
+                        "Includes dedicated sections for showcasing a diverse project portfolio, professional testimonials, and a detailed career timeline, all managed through a centralized data structure for easy updates."
+                    ],
+                },
+                {
+                    id: 2,
+                    name: "3D Portfolio.com",
+                    icon: "/images/safari.png",
+                    kind: "file",
+                    fileType: "url",
+                    href: "https://portfolio-zeta-three.vercel.app/",
+                    position: "top-20 left-20",
+                },
+                {
+                    id: 4,
+                    name: "3D Portfolio.png",
+                    icon: "/images/image.png",
+                    kind: "file",
+                    fileType: "img",
+                    position: "top-52 left-80",
+                    imageUrl: "/images/3dportfolio.png",
+                },
+                {
+                    id: 5,
+                    name: "Design.fig",
+                    icon: "/images/plain.png",
+                    kind: "file",
+                    fileType: "fig",
+                    href: "https://www.figma.com/design/JAXge1fx5UInSUp7n8dtil/Untitled?node-id=0-1&t=FhMoTjA7tG2NYMvf-1",
+                    position: "top-60 left-5",
+                },
+            ],
+        },
+        // ▶ Project 2 (AI Resume Analyzer)
+        {
+            id: 6,
             name: "AI Resume Analyzer",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
-            windowPosition: "top-[4vh] left-10",
+            windowPosition: "top-[20vh] left-10",
             children: [
                 {
                     id: 1,
@@ -284,14 +336,14 @@ const WORK_LOCATION = {
                 },
             ],
         },
-        // ▶ Project 2 (SPORT SHUB)
+        // ▶ Project 3 (SPORT SHUB)
         {
-            id: 6,
+            id: 7,
             name: "SPORTS HUB",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
-            windowPosition: "top-[20vh] left-15",
+            windowPosition: "top-[36vh] left-15",
             children: [
                 {
                     id: 1,
