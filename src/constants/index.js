@@ -454,6 +454,15 @@ const TRASH_LOCATION = {
             href: "https://lustrous-maamoul-886b94.netlify.app/",
             position: "top-40 left-80",
         },
+        {
+            id: 5,
+            name: "Hong Kong.com",
+            icon: "/images/safari.png",
+            kind: "file",
+            fileType: "url",
+            href: "https://magenta-nasturtium-7fac3a.netlify.app/",
+            position: "top-40 left-80",
+        },
     ],
 };
 
