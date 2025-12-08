@@ -418,15 +418,6 @@ const TRASH_LOCATION = {
     icon: "/icons/trash.svg",
     kind: "folder",
     children: [
-        // {
-        //     id: 1,
-        //     name: "trash1.png",
-        //     icon: "/images/image.png",
-        //     kind: "file",
-        //     fileType: "img",
-        //     position: "top-10 left-10",
-        //     imageUrl: "/images/trash-1.png",
-        // },
         {
             id: 1,
             name: "3D Rotate.com",
@@ -434,6 +425,15 @@ const TRASH_LOCATION = {
             kind: "file",
             fileType: "url",
             href: "https://3drotate.netlify.app/",
+            position: "top-40 left-80",
+        },
+        {
+            id: 2,
+            name: "Animate SVG.com",
+            icon: "/images/safari.png",
+            kind: "file",
+            fileType: "url",
+            href: "https://nimble-sable-72e976.netlify.app/",
             position: "top-40 left-80",
         },
     ],
