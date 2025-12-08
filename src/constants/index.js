@@ -261,7 +261,7 @@ const WORK_LOCATION = {
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://graceful-malasada-6d8ee5.netlify.app/",
+                    href: "https://ai-resume-analyzer-one-gold.vercel.app/",
                     position: "top-20 left-20",
                 },
                 {
@@ -313,7 +313,7 @@ const WORK_LOCATION = {
                     icon: "/images/safari.png",
                     kind: "file",
                     fileType: "url",
-                    href: "https://comforting-marigold-32af46.netlify.app/en",
+                    href: "https://kasseb-website.vercel.app/en",
                     position: "top-20 left-20",
                 },
                 {
@@ -424,7 +424,7 @@ const TRASH_LOCATION = {
             icon: "/images/safari.png",
             kind: "file",
             fileType: "url",
-            href: "https://3drotate.netlify.app/",
+            href: "https://3d-rotate-lilac.vercel.app/",
             position: "top-40 left-80",
         },
         {
@@ -433,7 +433,7 @@ const TRASH_LOCATION = {
             icon: "/images/safari.png",
             kind: "file",
             fileType: "url",
-            href: "https://nimble-sable-72e976.netlify.app/",
+            href: "https://animate-svg-gamma.vercel.app/",
             position: "top-40 left-80",
         },
         {
@@ -442,7 +442,7 @@ const TRASH_LOCATION = {
             icon: "/images/safari.png",
             kind: "file",
             fileType: "url",
-            href: "https://genuine-gaufre-c85428.netlify.app/",
+            href: "https://auto-slider-fawn.vercel.app/",
             position: "top-40 left-80",
         },
         {
@@ -451,7 +451,7 @@ const TRASH_LOCATION = {
             icon: "/images/safari.png",
             kind: "file",
             fileType: "url",
-            href: "https://lustrous-maamoul-886b94.netlify.app/",
+            href: "https://spider-animation.vercel.app/",
             position: "top-40 left-80",
         },
         {
@@ -460,7 +460,7 @@ const TRASH_LOCATION = {
             icon: "/images/safari.png",
             kind: "file",
             fileType: "url",
-            href: "https://magenta-nasturtium-7fac3a.netlify.app/",
+            href: "https://hong-kong-rosy.vercel.app/",
             position: "top-40 left-80",
         },
     ],
