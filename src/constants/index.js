@@ -445,6 +445,15 @@ const TRASH_LOCATION = {
             href: "https://genuine-gaufre-c85428.netlify.app/",
             position: "top-40 left-80",
         },
+        {
+            id: 4,
+            name: "Spider Animation.com",
+            icon: "/images/safari.png",
+            kind: "file",
+            fileType: "url",
+            href: "https://lustrous-maamoul-886b94.netlify.app/",
+            position: "top-40 left-80",
+        },
     ],
 };
 
