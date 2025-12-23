@@ -7,7 +7,7 @@ const Terminal = () => {
     return <>
         <div id="window-header">
             <WindowControls target="terminal"/>
-            <p>Tech Stack</p>
+            <p className="flex w-full justify-center">Tech Stack</p>
         </div>
         <div className="techstack">
             <p>

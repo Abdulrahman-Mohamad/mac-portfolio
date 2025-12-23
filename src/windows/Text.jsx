@@ -12,7 +12,7 @@ const Text = () => {
     return <>
         <div id="window-header">
             <WindowControls target="txtfile" />
-            <h2>{name}</h2>
+            <h2 className="flex w-full justify-center">{name}</h2>
         </div>
         <div className="p-5 space-y-6 bg-white">
             {image ? (

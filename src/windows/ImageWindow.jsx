@@ -12,7 +12,7 @@ const ImageWindow = () => {
     return <>
         <div id="window-header">
             <WindowControls target="imgfile" />
-            <h2>{name}</h2>
+            <h2 className="flex w-full justify-center">{name}</h2>
         </div>
         <div className="p-5 bg-white">
             {imageUrl ? (
