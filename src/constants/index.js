@@ -444,6 +444,58 @@ const WORK_LOCATION = {
         },
       ],
     },
+    // ▶ Project 5 (Infinity Builder)
+    {
+      id: 9,
+      name: "Infinity Builder",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-52 right-80",
+      windowPosition: "top-[64vh] left-14",
+      children: [
+        {
+          id: 1,
+          name: "Infinity Builder.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 right-10",
+          description: [
+            "Developed a high-performance full-stack application using React 19, Vite, and Tailwind CSS 4, featuring a sleek, responsive UI with smooth animations powered by Framer Motion.",
+            "Integrated OpenAI's API to process natural language prompts and generate structured website layouts, content, and components in real-time.",
+            "Built a secure and scalable backend with Express, Prisma, and PostgreSQL, incorporating Better Auth for robust user authentication and project management.",
+            "Implemented a credit-based system and a streamlined dashboard that allows users to create, preview, and manage multiple AI-generated projects efficiently."
+          ],
+        },
+        {
+          id: 2,
+          name: "Infinity Builder",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://ai-website-builder-client-xi.vercel.app/",
+          position: "top-20 left-20",
+        },
+        {
+          id: 4,
+          name: "sports hub.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 left-80",
+          imageUrl: "/images/infinty-builder.webp",
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "/images/plain.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://www.figma.com/design/A0zUMvZNcaLKCq3A0YmCR7/Ai-Website-Builder?node-id=0-1&t=GCmOkeF5piJtF04a-1",
+          position: "top-60 left-5",
+        },
+      ],
+    },
   ],
 };
 
