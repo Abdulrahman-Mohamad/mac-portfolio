@@ -365,7 +365,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://kasseb-website.vercel.app/en",
+          href: "https://sportshubbh.com",
           position: "top-20 left-20",
         },
         {
@@ -478,7 +478,7 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "sports hub.png",
+          name: "Infinity Builder.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
